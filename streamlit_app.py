@@ -24,7 +24,7 @@ st.title('Health Impact Prediction Based on Air Quality and Weather Conditions')
 
 # ส่วนสำหรับกรอกข้อมูลด้านคุณภาพอากาศ
 st.header('Air Quality Metrics')
-aqi = st.number_input('AQI')
+aqi = st.number_input('aqi')
 pm10 = st.number_input('PM10 (μg/m3)')
 pm2_5 = st.number_input('PM2.5 (μg/m3)')
 no2 = st.number_input('NO2 (μg/m3)')
